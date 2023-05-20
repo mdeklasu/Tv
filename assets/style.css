@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3,h5{
+    margin-bottom: 0;
+    line-height: 0.9;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+   
+}
+:root{
+	--primary: #931917;
+	--secondary: #dc4d01 ;
+    --textcolor: black;
+}
+/* header */
+.btn {
+    background: var(--primary);
+    color: #fff;
+    border: 0;
+  }
+  .btn:hover {
+    background: var(--secondary);
+  }
+/* Header End */
+.hero-area{
+    width: 100%;
+}
+/* Category Information */
+.category-info-card {
+    padding: 20px;
+    background-image: linear-gradient(var(--primary), var(--secondary));
+    border-radius: 10px;
+}
+.category-info-card h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.category-info {
+    margin-top: -100px;
+}
+/* Category Information End */
+/* video Card */
+.video-content {
+    padding: 50px 50px;
+}
+.video-card{
+    padding-bottom: 25px;
+
+}
+.video-card video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-card .title a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--textcolor) ;
+}
+.video-card .title a:hover {
+    color: var(--primary) ;
+}
+
+.video-card .tag-title {
+    font-size: 16px;
+    padding: 7px 0;
+}
+.video-card .views {
+    font-size: 14px;
+}
+@media only screen and (max-width: 992px) {
+    .video-content {
+        padding: 30px 20px;
+    }
+  }
+/* video Card End */
+/* Search Video Card */
+.search {
+    padding: 50px 0;
+}
+.search-video video {
+    width: 100%;
+    border-radius: 10px;
+}
+.search-content .title a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--textcolor) ;
+}
+.search-content .title a:hover {
+    color: var(--primary) ;
+}
+.search-content .tag-title {
+    font-size: 16px;
+    padding: 7px 0;
+}
+.search-content .views {
+    font-size: 14px;
+}
+/* Search Video Card End */
+/* Search Bar */
+#search-ber .search-container {
+    float: right;
+}
+  
+#search-ber input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background: rgb(195, 195, 195);
+    border-radius: 5px 0px 0px 5px;
+}
+  
+#search-ber .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px
+}
+/* Search Bar End */
+
+/* Single Page */
+#single-wraper{
+    padding: 50px;
+}
+.chanel-info {
+    justify-items: center;
+    padding: 10px 0;
+}
+.chanel-img img {
+    width: 50px;
+    height: 50px; 
+}
+.single-video .title {
+    font-size: 25px;
+    margin-top: 10px;
+}
+h4.chanel-name {
+    font-size: 20px;
+    margin: 0;
+}
+h5.chanel-sub {
+    font-size: 14px;
+    color: #6e6e6e;
+    margin-top: 5px;
+}
+.like img {
+    width: 32px;
+    margin: 0 10px;
+}
+.like {
+    text-align: center;
+    color: #fff;
+}
+.like a {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.like i {
+    margin: 0 10px;
+}
+.dsc-box {
+    margin-top: 15px;
+    padding: 20px;
+    background: #b1b1b1;
+    border-radius: 10px;
+}
+.comment-box .title:hover {
+    color: var(--primary);
+}
+.comment-img img {
+    border-radius: 50%;
+    width: 55px;
+}
+.comment-box .title {
+    font-size: 40px;
+    padding: 20px 0;
+    display: inline-block;
+}
+#single-wraper {
+	display: flex;
+    gap: 50px;
+}
+.single-page {
+    width: 60%;
+}
+.single-sideber {
+    width: 40%;
+}
+.sidebar-video video {
+	width: 100%;
+    border-radius: 10px;
+}
+.sidebar-content a {
+	font-size: 22px;
+    color: var(--textcolor);
+}
+.sidebar-content a:hover {
+    color: var(--primary);
+}
+.sidebar-content .tag-title {
+	font-size: 16px;
+	margin: 10px 0px;
+}
+@media only screen and (max-width: 992px) {
+    #single-wraper {
+        display: inline-block;
+        padding: 20px;
+    }
+    .single-page {
+        width: 100%;
+    }
+    .single-sideber {
+        width: 100%;
+    }
+}
+/*Single Page End */
+
